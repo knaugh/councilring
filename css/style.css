@@ -31,7 +31,7 @@ header > .top a.menu_icon:hover i {
 }
 nav.menu {
 	width: 300px;
-	min-height: calc(100vh - 121px);
+	min-height: calc(100vh);
 	background-color: grey;
 	position: absolute;
 	left: -300px;
@@ -50,7 +50,7 @@ main {
 	box-sizing: border-box;
 }
 footer {
-	height: 50px;
+	height: 40px;
 	background-color: #494949;
 	color: #fff;
 	display: flex;
@@ -60,6 +60,19 @@ footer {
 	position: fixed;
 	width: 100%;
 }
+footer > p{
+    margin: 0;
+}
+footer > a{
+    align-content: center;
+}
+.sm_icon {
+    padding: 20px;
+    width: 20px;
+    height: auto;
+    color: white;
+}
+
 
 .menu_show {
 	left: 0!important;
