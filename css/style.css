@@ -65,7 +65,40 @@ main {
 	box-sizing: border-box;
 	font-family: futura;
 }
-
+main h1{
+	padding: 10px;
+	margin: 10px;
+}
+main h2{
+	padding: 10px;
+	margin: 10px;;
+}
+main h3{
+	padding: 10px;
+	margin: 10px;;
+}
+main p{
+	padding: 5px;
+	margin: 20px;
+}
+.show-tile p{
+	background-color: rgba(138, 138, 138, 0.7);
+	
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+.show-tile{
+	background-image: url('../assets/images/bg/tilebg.jpg');
+	background-blend-mode:exclusion;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+	color: black
+}
 footer {
 	height: 40px;
 	background-color: black;
@@ -92,12 +125,6 @@ footer > a{
 	font-size: 40px;
 }
 
-
-
-
-.menu_show {
-	left: 0!important;
-}
 
 @media screen and (max-width: 425px) {
 	header h1 {
