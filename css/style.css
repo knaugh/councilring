@@ -28,6 +28,9 @@ header {
 	background-size: 100%;
 	position: relative;
 }
+.player {
+	padding-left: 20px;
+}
 .container {
 	position: absolute;
 	bottom: 0;
